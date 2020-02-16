@@ -26,6 +26,15 @@ module.exports = appInfo => {
     },
   };
 
+  // set port
+  config.cluster = {
+    listen: {
+      path: '',
+      port: 9257,
+      hostname: '127.0.0.1',
+    },
+  };
+
   // add your user config here
   const userConfig = {
     // myAppName: 'egg',

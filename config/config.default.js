@@ -18,9 +18,12 @@ module.exports = appInfo => {
   // add your middleware config here
   config.middleware = [];
 
-  // add  egg-view-ejs
+  // add  egg-view-nunjucks
   config.view = {
-    mapping: { '.html': 'ejs' },
+    defaultViewEngine: 'nunjucks',
+    mapping: {
+      '.tpl': 'nunjucks',
+    },
   };
 
   // add your user config here

@@ -1,7 +1,7 @@
 'use strict';
 
 /** @type Egg.EggPlugin */
-module.exports.ejs = {
+module.exports.nunjucks = {
   enable: true,
-  package: 'egg-view-ejs',
+  package: 'egg-view-nunjucks',
 };

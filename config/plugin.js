@@ -1,7 +1,12 @@
-'use strict';
+'use strict'
 
 /** @type Egg.EggPlugin */
-module.exports.nunjucks = {
+exports.nunjucks = {
   enable: true,
-  package: 'egg-view-nunjucks',
-};
+  package: 'egg-view-nunjucks'
+}
+
+exports.cors = {
+  enable: true,
+  package: 'egg-cors'
+}

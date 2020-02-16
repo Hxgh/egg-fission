@@ -1,3 +1,11 @@
 {
-  "extends": "eslint-config-egg"
+  "root": true,
+  "extends": "eslint-config-egg",
+  "parser": "babel-eslint",
+  "rules": {
+    // js语句结尾必须使用分号
+    "semi": [0],
+    // 要求或禁止末尾逗号
+    "comma-dangle": 0
+  }
 }
